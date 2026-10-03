@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editor
+.vscode/
+.kilo/
+
+# Credenciais: NUNCA versionar
+.env
+*.pem
+.aws/
+credentials
+
+# Dados locais volumosos ou de terceiros (a amostra fica em data/sample/)
+dados_processados/*
+!dados_processados/.gitkeep
+pesquisa_eleitoral_2026_*.csv
+*.pdf
+
+# Resultados de consultas do Athena
+athena-results/

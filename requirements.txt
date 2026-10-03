@@ -1,0 +1,12 @@
+# Coleta
+requests
+beautifulsoup4
+lxml
+# Análise e gráficos
+pandas
+numpy
+matplotlib
+# AWS
+boto3
+# Opcional: ler direto do Athena (FONTE = "athena" em probabilidade.py)
+# awswrangler
